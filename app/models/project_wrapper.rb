@@ -1,4 +1,4 @@
-class RedmineWebhook::ProjectWrapper
+class ProjectWrapper
   def initialize(project)
     @project = project
   end
