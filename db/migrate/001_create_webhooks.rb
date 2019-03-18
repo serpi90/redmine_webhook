@@ -1,4 +1,4 @@
-class CreateWebhooks < ActiveRecord::Migration
+class CreateWebhooks < PLUGIN_MIGRATION_CLASS
   def change
     create_table :webhooks do |t|
       t.string :url
